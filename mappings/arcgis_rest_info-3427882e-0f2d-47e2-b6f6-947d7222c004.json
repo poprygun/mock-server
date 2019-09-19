@@ -1,0 +1,26 @@
+{
+  "id" : "3427882e-0f2d-47e2-b6f6-947d7222c004",
+  "name" : "arcgis_rest_info",
+  "request" : {
+    "url" : "/anything",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"currentVersion\":10.6,\"fullVersion\":\"10.6.0\",\"soapUrl\":\"http://services.arcgisonline.com/arcgis/services\",\"secureSoapUrl\":\"https://services.arcgisonline.com/arcgis/services\",\"authInfo\":{\"isTokenBasedSecurity\":false}}",
+    "headers" : {
+      "Server" : "",
+      "Vary" : "Origin,Accept-Encoding",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Credentials" : "true",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "X-Robots-Tag" : "noindex",
+      "Date" : "Thu, 30 May 2019 16:19:16 GMT",
+      "Connection" : "keep-alive",
+      "Cache-Control" : "max-age=0,must-revalidate"
+    }
+  },
+  "uuid" : "3427882e-0f2d-47e2-b6f6-947d7222c004",
+  "persistent" : true,
+  "insertionIndex" : 71
+}

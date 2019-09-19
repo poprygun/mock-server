@@ -1,0 +1,7 @@
+---
+applications:
+- name: mock-server
+  memory: 1G
+  path: mock-server.zip
+  buildpacks:
+    - java_buildpack
