@@ -10,6 +10,14 @@ Create or modify stubbed responses in `/mappings` diretory.
 wget http://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/2.24.1/wiremock-standalone-2.24.1.jar -O lib/wiremock-standalone.jar
 ```
 
+## To create a new stub
+
+Post json to `http://mock-server.cfapps.io/__admin/mappings/new`
+
+```bash
+echo '{"request":{"method":"GET","url":"/some/comrade"},"response":{"status":200,"body":"{\"name\": \"John Doe\", \"last name\":\"Doe the 2nd\"}","headers":{"Content-Type":"application/json"}}}' | http post http://mock-server.cfapps.io/__admin/mappings/new
+```
+
 ## To test locally
 
 ```bash
